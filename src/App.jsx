@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import RecipeList from './components/RecipeList';
-import SearchBar from './components/SearchBar';
-import RecipeDetail from './components/RecipeDetail';
+import RecipeList from './Components/RecipeList';
+import SearchBar from './Components/SearchBar';
+import RecipeDetail from './Components/RecipeDetail';
 import MealPlanner from './Components/MealPlanner';
-import ShoppingList from './components/ShoppingList';
+import ShoppingList from './Components/ShoppingList';
 import { Transition } from 'react-transition-group';
 
 const LOCAL_STORAGE_KEY = 'mealPlan';
