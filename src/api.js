@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://www.themealdb.com/api/json/v1/1';
+const API_BASE_URL = 'https://recipeapp-backend-9kd6.onrender.com';
 
 export async function searchRecipes(query) {
     try{
